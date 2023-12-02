@@ -1,0 +1,25 @@
+docker run -it \
+  -e POSTGRES_USER="root" \
+  -e POSTGRES_PASSWORD ="root" \
+  -e POSTGRES_DB="ny_taxi" \
+  -v C:/Users/dbrig/Documents/dataengine/taxiproject/ny_taxi_postgres_data:/var/lib/postgresql/data \
+  -p 5432:5432 \
+  --network=pg-network \
+  --name=pg-db \
+  postgres:13
+
+docker run -it -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -e POSTGRES_DB=ny_taxi -v C:/Users/dbrig/Documents/dataengine/taxiproject/ny_taxi_postgres_data:/var/lib/postgresql/data -p 5432:5432 --network=pg-network --name=pg-database postgres:13
+
+
+
+CSV_PATH="green_tripdata_2023-01.parquet"
+docker run -it \
+  --network=pg-network \
+  python_test:001 \
+  --user=root \
+  --password=root \
+  --host=pg-database \
+  --port=5432 \
+  --db=ny_taxi \
+  --table=green_trip \
+  --csv_path=${CSV_PATH}
