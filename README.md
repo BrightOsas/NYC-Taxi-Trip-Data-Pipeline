@@ -1,6 +1,6 @@
 # DATA ENGINEERING PROJECT
 
-## TITLE: "Building an Efficient NYC Taxi Trip Batch Data Pipeline for Analytical Insights"
+## *TITLE*: Building an Efficient NYC Taxi Trip Batch Data Pipeline for Analytical Insights
 
 ## Introduction
 
@@ -36,5 +36,5 @@ Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 
 ## contact
 * [Bright Osarenren](linkedin.com/in/brightosas)
-* [Project link]()
+* [Project link](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline)
 
