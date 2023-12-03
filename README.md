@@ -4,9 +4,11 @@
 
 ## Introduction
 
-Welcome to my first Data Engineering project! The objective is to construct an efficient data pipeline for improved data management and more effective data-driven suggestions. This project involves both ETL and ELT operations, showcasing my understanding of how to utilize big data tools to build an efficient data pipeline.  
+Welcome to my first Data Engineering project! The objective is to construct an efficient data pipeline for improved data management and more effective data-driven suggestions. This project involves both ETL and ELT operations, showcasing my understanding of how to utilize big data tools to build an efficient data pipeline. 
 
-
+![r2](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/e1aae350-88a4-40dc-af0a-ce8d1c517103)
+  
+  
 ## Architecture
  
 ![taxi-architecture drawio](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/a5f12866-484b-4959-bbb9-8962f11d41df)
