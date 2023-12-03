@@ -1,7 +1,6 @@
 # DATA ENGINEERING PROJECT
-                ## NYC Taxi Trip Batch Data Pipeline
 
-
+#TITLE ## "Building an Efficient NYC Taxi Trip Batch Data Pipeline for Analytical Insights"
 
 
 
