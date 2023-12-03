@@ -24,7 +24,16 @@ The transformed DBT data is extracted from the PostgreSQL database using PySpark
 **Data Storage:**
 Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 
-### Technologies
+
+
+## Dashboard
+**Data Description:** Dataset contains data for the year 2023, it provides insight on the Taxi trips record for the 6 boroughs in New York City with respect to taxi vendors, service type and trip record type.  
+![db11](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/0e526bbd-88a7-4570-9ea7-6d3981417c50)
+![db3](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/ccbf2b99-045a-4cdb-8c58-8c47daba0823)
+  
+  
+  
+## Technologies
 
 * Docker: Containerization  
 * Apache Airflow: Orchestration   
@@ -36,11 +45,6 @@ Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 * Amazon S3: Data Lake  
 * Boto3: Batch Processing  
 * Python: Scripting  
-
-### Dashboard
-**Data Description:** Dataset contains data for the year 2023, it provides insight on the Taxi trips record for the 6 boroughs in New York City with respect to taxi vendors, service type and trip record type.  
-![db11](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/0e526bbd-88a7-4570-9ea7-6d3981417c50)
-![db3](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/ccbf2b99-045a-4cdb-8c58-8c47daba0823)
 
 
 ## contact
