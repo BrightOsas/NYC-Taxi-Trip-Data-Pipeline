@@ -27,7 +27,11 @@ Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 
 
 ## Dashboard
-**Data Description:** Dataset contains data for the year 2023, it provides insight on the Taxi trips record for the 6 boroughs in New York City with respect to taxi vendors, service type and trip record type.  
+**Data Description:** Dataset contains data for the year 2023, it provides insight on the Taxi trips record for the 6 boroughs in New York City with respect to taxi vendors, service type and trip record type.   
+  
+[Link To Dashboard](https://lookerstudio.google.com/u/0/reporting/63cb0bd5-82ce-4a18-85ef-43337b92e331/page/p_8bkuzl286c)
+
+    
 ![db11](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/0e526bbd-88a7-4570-9ea7-6d3981417c50)
 ![db3](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/ccbf2b99-045a-4cdb-8c58-8c47daba0823)
   
