@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.providers.postgres.hooks.postgres import PostgresHook  # Corrected import
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 
 
