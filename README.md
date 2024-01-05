@@ -32,7 +32,8 @@ Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 [Link To Dashboard](https://lookerstudio.google.com/u/0/reporting/63cb0bd5-82ce-4a18-85ef-43337b92e331/page/p_8bkuzl286c)
 
     
-![NEW](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/3f6325a7-7bf1-4738-bdeb-573f4942247e)
+![NEW](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/e6fc4fb5-df98-45af-a950-6256e45e28d7)
+
 
 
 ![db3](https://github.com/BrightOsas/NYC-Taxi-Trip-Data-Pipeline/assets/98474404/ccbf2b99-045a-4cdb-8c58-8c47daba0823)
