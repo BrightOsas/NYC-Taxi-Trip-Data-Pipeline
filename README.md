@@ -59,8 +59,8 @@ clone this repository
 set up the environment and requiremnt
 * cd data-ingestion folder : docker compose up -d --build
 * cd airflow orchestration folder : docker compose up -d --build
-* dbt run
-* run pyspark script in a jupyter environment.
+* setup dbt(local) python env: dbt run
+* run pyspark script in jupyter environment.
 
 
 ## contact
