@@ -51,7 +51,16 @@ Transformed DBT data is stored in an AWS S3 bucket using PySpark and Boto3.
 * Looker Studio: Dashboard Virtualization 
 * Amazon S3: Data Lake  
 * Boto3: Batch Processing  
-* Python: Scripting  
+* Python: Scripting
+
+
+## How to run the Project
+clone this repository  
+set up the environment and requiremnt
+* cd data-ingestion folder : docker compose up -d --build
+* cd airflow orchestration folder : docker compose up -d --build
+* dbt run
+* run pyspark script in a jupyter environment.
 
 
 ## contact
